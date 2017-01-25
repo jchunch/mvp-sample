@@ -21,7 +21,7 @@ public class WeatherPresenterImpl implements WeatherPresenter, WeatherResponseLi
     }
 
     @Override
-    public void onDataResponse(Weather weather) {
+    public void handleWeatherResponse(Weather weather) {
         this.weather = weather;
 
         if (weather == null) {
@@ -35,7 +35,7 @@ public class WeatherPresenterImpl implements WeatherPresenter, WeatherResponseLi
     }
 
     @Override
-    public void refreshData() {
+    public void handleRefreshMenuItemClick() {
         requestData();
     }
 
@@ -53,6 +53,6 @@ public class WeatherPresenterImpl implements WeatherPresenter, WeatherResponseLi
 
     private void requestData() {
         view.displayLoadingState();
-        interactor.fetchWeather();
+        interactor.requestWeather();
     }
 }

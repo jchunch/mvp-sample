@@ -20,7 +20,7 @@ public class WeatherInteractorImpl implements WeatherInteractor {
     }
 
     @Override
-    public void fetchWeather() {
+    public void requestWeather() {
 
         // Replace this with actual network call
         new Handler().postDelayed(new Runnable() {
@@ -33,7 +33,7 @@ public class WeatherInteractorImpl implements WeatherInteractor {
                     weather.setHeadline("Clouds early/clearing late");
                     weather.setTemperature("42");
                 }
-                listener.onDataResponse(weather);
+                listener.handleWeatherResponse(weather);
             }
         }, 1500);
     }

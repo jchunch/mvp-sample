@@ -57,7 +57,7 @@ public class WeatherActivity extends BaseActivity implements WeatherView {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
             case R.id.menu_weather_refresh:
-                presenter.refreshData();
+                presenter.handleRefreshMenuItemClick();
                 return true;
 
             default:

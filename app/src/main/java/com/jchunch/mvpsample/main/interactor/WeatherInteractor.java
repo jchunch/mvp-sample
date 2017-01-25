@@ -5,5 +5,5 @@ package com.jchunch.mvpsample.main.interactor;
  */
 
 public interface WeatherInteractor {
-    void fetchWeather();
+    void requestWeather();
 }

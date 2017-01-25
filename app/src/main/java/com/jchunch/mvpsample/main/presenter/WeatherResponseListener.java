@@ -7,5 +7,5 @@ import com.jchunch.mvpsample.model.Weather;
  */
 
 public interface WeatherResponseListener {
-    void onDataResponse(Weather weather);
+    void handleWeatherResponse(Weather weather);
 }

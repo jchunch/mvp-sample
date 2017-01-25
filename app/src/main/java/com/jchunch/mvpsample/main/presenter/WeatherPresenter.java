@@ -5,6 +5,6 @@ package com.jchunch.mvpsample.main.presenter;
  */
 
 public interface WeatherPresenter {
-    void refreshData();
+    void handleRefreshMenuItemClick();
     void startPresenting();
 }
