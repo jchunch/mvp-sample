@@ -1,12 +1,10 @@
-package com.jchunch.mvpsample.weather.interactor;
+package com.jchunch.mvpsample.main.interactor;
 
 import android.os.Handler;
 
 import com.jchunch.mvpsample.model.Weather;
-import com.jchunch.mvpsample.weather.presenter.WeatherResponseListener;
+import com.jchunch.mvpsample.main.presenter.WeatherResponseListener;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 /**

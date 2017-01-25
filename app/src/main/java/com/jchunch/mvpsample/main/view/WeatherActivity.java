@@ -1,16 +1,15 @@
-package com.jchunch.mvpsample.weather.view;
+package com.jchunch.mvpsample.main.view;
 
 import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
-import com.jchunch.mvpsample.BaseActivity;
+import com.jchunch.mvpsample.base.BaseActivity;
 import com.jchunch.mvpsample.R;
-import com.jchunch.mvpsample.weather.presenter.WeatherPresenter;
-import com.jchunch.mvpsample.weather.presenter.WeatherPresenterImpl;
+import com.jchunch.mvpsample.main.presenter.WeatherPresenter;
+import com.jchunch.mvpsample.main.presenter.WeatherPresenterImpl;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -1,4 +1,4 @@
-package com.jchunch.mvpsample.weather.presenter;
+package com.jchunch.mvpsample.main.presenter;
 
 /**
  * Created by john.hunchar on 1/23/17.

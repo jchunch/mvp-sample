@@ -1,8 +1,6 @@
-package com.jchunch.mvpsample.weather.presenter;
+package com.jchunch.mvpsample.main.presenter;
 
 import com.jchunch.mvpsample.model.Weather;
-
-import java.util.List;
 
 /**
  * Created by john.hunchar on 1/23/17.

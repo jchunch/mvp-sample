@@ -1,4 +1,4 @@
-package com.jchunch.mvpsample;
+package com.jchunch.mvpsample.base;
 
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;

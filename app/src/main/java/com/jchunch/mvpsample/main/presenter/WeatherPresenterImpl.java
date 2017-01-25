@@ -1,10 +1,9 @@
-package com.jchunch.mvpsample.weather.presenter;
+package com.jchunch.mvpsample.main.presenter;
 
-import com.jchunch.mvpsample.R;
 import com.jchunch.mvpsample.model.Weather;
-import com.jchunch.mvpsample.weather.interactor.WeatherInteractor;
-import com.jchunch.mvpsample.weather.interactor.WeatherInteractorImpl;
-import com.jchunch.mvpsample.weather.view.WeatherView;
+import com.jchunch.mvpsample.main.interactor.WeatherInteractor;
+import com.jchunch.mvpsample.main.interactor.WeatherInteractorImpl;
+import com.jchunch.mvpsample.main.view.WeatherView;
 
 /**
  * Created by john.hunchar on 1/23/17.

@@ -1,8 +1,4 @@
-package com.jchunch.mvpsample.weather.view;
-
-import com.jchunch.mvpsample.model.Weather;
-
-import java.util.List;
+package com.jchunch.mvpsample.main.view;
 
 /**
  * Created by john.hunchar on 1/23/17.
